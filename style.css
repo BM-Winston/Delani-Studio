@@ -4,10 +4,21 @@
     
 } */
 .container{
-    background-image: url(./images/step.jpg); height: 300px;width: 200px;
-    background-attachment: fixed;
+    background-image: url(./images/step.jpg); 
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: white;
 }
+.about{
+    text-align: center;
+}
+.services{
+    background-image: url(./images/key.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat:no-repeat;
+    
+}
+
