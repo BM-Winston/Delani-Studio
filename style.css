@@ -16,6 +16,7 @@
 }
 .services{
     background-image: url(./images/key.jpg);
+    height: 300px;
     background-size: cover;
     text-align: center;
     background-repeat:no-repeat;
@@ -23,4 +24,12 @@
 }
 .design{
     justify-content: space-around;
+}
+.contact{
+    background-image: url(./images/f1.jpg) ;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
