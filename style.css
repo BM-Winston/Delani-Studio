@@ -1,13 +1,9 @@
-/* body{
-    margin: 0;
-    padding: 0;
-    
-} */
-.container{
-    background-image: url(./images/step.jpg); 
-    /* background-attachment: fixed; */
+
+.first{
+    background: url(images/step.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 100%;
     text-align: center;
     color: white;
 }
@@ -15,15 +11,18 @@
     text-align: center;
 }
 .services{
-    background-image: url(./images/key.jpg);
-    height: 300px;
+    background: url(./images/key.jpg) ;
+    
     background-size: cover;
     text-align: center;
     background-repeat:no-repeat;
     
+    
+    
 }
 .design{
-    justify-content: space-around;
+    
+    text-align: center;
 }
 
 .contact{
@@ -34,7 +33,10 @@
     height: 300px;
 }
 .icons{
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     text-align: center;
+}
+.icons .footer{
+    flex-direction: column;
 }
