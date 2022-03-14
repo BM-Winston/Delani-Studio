@@ -35,6 +35,7 @@
 .icons{
     
     text-align: center;
+    display: flex;
 }
 .icons .footer{
     flex-direction: column;
