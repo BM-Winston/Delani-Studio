@@ -40,8 +40,8 @@
     
 }
 .design{
-    padding-top: 5%;
-    
+    /* padding-top: 5%;
+     */
     text-align: center;
 }
 
@@ -61,17 +61,57 @@
 
 
 .portfolio{
-margin: 80px;
+text-align: center;
+
+}
+
+.studio{
+    display: none;
 
 }
 .social{
+display: flex;
 text-align: center;
+justify-content: center;
 }
 .footer{
     text-align: center;
 }
 
-.col-md-3{
+.studio{
+    display: none;
     
-    padding: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    height: 90%;
+    width: 85%;
+    text-align: left;
+    color: white;
+    position: absolute;
+}
+
+.blacken:before{
+    content: "";
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    height: 100%;
+    width: 90%;
+    display: block;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.studio1,.studio2,.studio3,.studio4,.studio5,.studio6,.studio7,.studio8{
+    position: relative;
+}
+
+.info{
+    margin: 0% 20%;
+}
+.prd3, .prd2, .prd1{
+    display: none;
 }
