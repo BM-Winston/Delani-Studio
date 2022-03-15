@@ -30,7 +30,12 @@
 * HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages.
+
 * Bootstrap - which was used to style the pages.
+
+* jQuery - To achieve functionality of the website.
+
+* JavaScript - To achive functionality of the website.
 
 ## Reference
 * Materialize CSS
@@ -64,5 +69,7 @@ SOFTWARE.
 [Go Back to the top](#portfolio)
 
 ## Authors Info
+
+* Winston Musasia 
 
 [Go Back to the top](#portfolio)

@@ -115,3 +115,7 @@ justify-content: center;
 .prd3, .prd2, .prd1{
     display: none;
 }
+
+h6{
+    font-weight: bold;
+}
